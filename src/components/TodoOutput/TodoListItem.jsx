@@ -2,10 +2,10 @@ import React from 'react';
 
 const TodoListItem = () => {
   return (
-    <div class="ui list todoListItem">
-      <div class="item complete">complete</div>
-      <div class="item todo">todo</div>
-      <div class="item delete">delete</div>
+    <div className="todoListItem">
+      <div className="complete">complete</div>
+      <div className="todo">todo</div>
+      <div className="delete">delete</div>
     </div>
   );
 };

@@ -1,11 +1,12 @@
 import React from 'react';
-import TodoOutputForm from './TodoOutputForm';
+import TodoOutputList from './TodoOutputList';
 import TodoListItem from './TodoListItem';
 
 const TodoOuputAction = () => {
   return (
     <div>
-      <TodoOutputForm />
+      <TodoOutputList />
+      <TodoListItem />
     </div>
   );
 };
