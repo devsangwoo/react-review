@@ -4,13 +4,11 @@ const TodoInsert = () => {
   return (
     <div>
       <form className="TodoInsert">
-        <div class="ui fluid icon input">
+        <div className="inputframe">
           <input type="text" placeholder="To add..." />
         </div>
       </form>
-      <button class="ui icon button">
-        <i class="circular plus icon"></i>
-      </button>
+      <button className="addBtn">add</button>
     </div>
   );
 };

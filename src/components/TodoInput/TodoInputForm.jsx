@@ -1,13 +1,13 @@
 import React from 'react';
 
-const TodoInputForm = () => {
+const TodoItem = () => {
   return (
-    <div class="ui menu">
-      <div class="item">
+    <div className="menu">
+      <div className="item">
         <h3>todo list</h3>
       </div>
     </div>
   );
 };
 
-export default TodoInputForm;
+export default TodoItem;

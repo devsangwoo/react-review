@@ -1,11 +1,11 @@
 import React from 'react';
-import TodoInputForm from './TodoInputForm';
+import TodoItem from './TodoInputForm';
 import TodoInsert from './TodoInsert';
 
 const TodoInputAction = () => {
   return (
     <div>
-      <TodoInputForm />
+      <TodoItem />
       <TodoInsert />
     </div>
   );
